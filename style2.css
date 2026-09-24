@@ -1,0 +1,119 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    color: #333333;
+}
+
+/* 1. Navbar: Membuat Logo di Kiri & Menu di Kanan */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    background-color: #0b1e43;
+    padding: 20px 20px;  
+    color: #ffffff;
+    height: 60px;
+    
+}
+
+.logo {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style-type: none;
+    display: flex;
+    gap: 25px;
+    margin: 0;
+    padding: 0;
+    column-gap: 25px;
+    color: white;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 15px;
+}
+
+.nav-links li a:hover {
+    color: white;
+}
+
+/* 2. Hero Section: Banner Biru di Atas */
+.hero {
+    background: linear-gradient(135deg, #07193e, #0e3383);
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.hero h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 16px;
+    margin-bottom: 25px;
+    color: #e2e8f0;
+}
+
+.btn-get-started {
+    background-color: #ffffff;
+    color: hwb(220 4% 74%);
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-block
+}
+
+.about, .contact {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.about h2, .contact h2, .services h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+.services {
+    background-color: #f8fafc;
+    padding: 50px 20px;
+    text-align: center;
+    justify-content: center;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.card {
+    background-color: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    padding: 25px;
+    width: 250px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.foot {
+    background-color: #0b1e43;
+    color: #94a3b8;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 14px;
+}
